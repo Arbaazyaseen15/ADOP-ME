@@ -4,7 +4,5 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   root: "src",
-   build: {
-    outDir: 'dist', // This is the default output directory for Vite
-  },
+  
 });
